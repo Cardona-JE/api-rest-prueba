@@ -29,7 +29,7 @@ public class PersonController {
 
     @GetMapping("/all")
     public List<Person> getAllPersons() {
-        return personService.getAllPersons();
+        return personService.getAllPersons(); //only for the test
     }
 
     @GetMapping("/{id}")
